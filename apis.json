@@ -1,0 +1,82 @@
+{
+    "name": "StreamSets",
+    "description": "The industry's first data operations platform for full life-cycle management of data in motion.",
+    "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/28193-streamsets.jpg",
+    "tags": [
+        "data",
+        "have api",
+        "new",
+        "streaming"
+    ],
+    "created": "2019-12-19",
+    "modified": "2019-12-19",
+    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/streamsets\/master\/apis.json",
+    "specificationVersion": "0.14",
+    "apis": [
+        {
+            "name": "StreamSets",
+            "description": null,
+            "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/28193-streamsets.jpg",
+            "humanURL": "http:\/\/streamsets.com",
+            "baseURL": "",
+            "tags": [],
+            "properties": [
+                {
+                    "type": "x-openapi",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/streamsets-openapi.json"
+                }
+            ]
+        }
+    ],
+    "include": [],
+    "x-common": [
+        {
+            "type": "Blog RSS",
+            "url": "https:\/\/streamsets.com\/feed\/"
+        },
+        {
+            "type": "Github",
+            "url": "https:\/\/github.com\/streamsets"
+        },
+        {
+            "type": "Website",
+            "url": "http:\/\/streamsets.com"
+        },
+        {
+            "type": "Blog",
+            "url": "https:\/\/streamsets.com\/blog\/"
+        },
+        {
+            "type": "Crunchbase",
+            "url": "https:\/\/crunchbase.com\/organization\/streamsets"
+        },
+        {
+            "type": "Email",
+            "url": "info@streamsets.com"
+        },
+        {
+            "type": "Email",
+            "url": "support@streamsets.com"
+        },
+        {
+            "type": "Email",
+            "url": "emea@streamsets.com"
+        },
+        {
+            "type": "Email",
+            "url": "feedback@streamsets.com"
+        },
+        {
+            "type": "Email",
+            "url": "legal@streamsets.com"
+        },
+        {
+            "type": "Twitter",
+            "url": "https:\/\/twitter.com\/streamsets"
+        },
+        {
+            "type": "Website",
+            "url": "https:\/\/streamsets.com"
+        }
+    ]
+}
