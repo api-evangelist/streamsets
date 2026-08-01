@@ -1,8 +1,16 @@
 aid: streamsets
 name: StreamSets
-description: StreamSets is a company surfaced as a portfolio company of battery-ventures, dcvc and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  StreamSets, now part of IBM, is a DataOps platform for building, running, and
+  operating smart data pipelines for streaming, batch, and change-data-capture
+  workloads across hybrid and multi-cloud environments. Its flagship products —
+  Control Hub (the cloud-native control plane), Data Collector, and Transformer —
+  let data engineers design pipelines once and run them anywhere, with drift
+  detection that keeps pipelines resilient as schemas and infrastructure change.
+  StreamSets exposes a Control Hub REST API and an official Python SDK so teams
+  can automate pipeline design, deployment, job orchestration, and monitoring as
+  code. Originally founded in 2014 and backed by Battery Ventures and DCVC,
+  StreamSets was acquired by Software AG and is now delivered as IBM StreamSets.
 url: https://raw.githubusercontent.com/api-evangelist/streamsets/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,14 +19,80 @@ x-backed-by:
 - dcvc
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.ibm.com/products/streamsets
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
-apis: []
+- Data Integration
+- DataOps
+- Data Pipelines
+- ETL
+- Streaming Data
+- Change Data Capture
+- Data Engineering
+apis:
+- name: StreamSets Control Hub API
+  description: >-
+    REST API for IBM StreamSets Control Hub — the cloud-native control plane for
+    designing, deploying, orchestrating, and monitoring StreamSets data pipelines
+    and jobs across engines. Programmatic access is also available through the
+    official StreamSets SDK for Python.
+  humanURL: https://www.ibm.com/docs/en/streamsets-controlhub
+  baseURL: https://cloud.streamsets.com/
+  tags:
+  - Data Integration
+  - DataOps
+  - Data Pipelines
+  properties:
+  - type: Documentation
+    url: https://www.ibm.com/docs/en/streamsets-controlhub
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 4
+  pass: local-v1
+common:
+- type: VulnerabilityDisclosure
+  url: security/streamsets-vulnerability-disclosure.yml
+- type: Security
+  url: https://www.ibm.com/trust/security-psirt
+- type: DomainSecurity
+  url: security/streamsets-domain-security.yml
+- type: Website
+  url: https://www.ibm.com/products/streamsets
+- type: DeveloperPortal
+  url: https://www.ibm.com/products/streamsets
+- type: Documentation
+  url: https://www.ibm.com/docs/en/streamsets
+- type: Pricing
+  url: https://www.ibm.com/products/streamsets/pricing
+- type: Support
+  url: https://www.ibm.com/support
+- type: SignUp
+  url: https://cloud.streamsets.com/
+- type: StatusPage
+  url: https://status.streamsets.com/
+- type: Packages
+  url: packages/streamsets-packages.yml
+- type: SDKs
+  url: packages/streamsets-packages.yml
+- type: Lifecycle
+  url: lifecycle/streamsets-lifecycle.yml

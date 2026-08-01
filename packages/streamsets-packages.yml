@@ -1,0 +1,16 @@
+generated: '2026-07-21'
+method: searched
+source: https://pypi.org/project/streamsets/
+packages:
+  - language: python
+    registry: pypi
+    name: streamsets
+    url: https://pypi.org/project/streamsets/
+    install: pip install streamsets
+    version: 7.0.2
+    official: true
+    description: >-
+      Official StreamSets SDK for Python. Lets users interact with StreamSets
+      products programmatically — Control Hub, Data Collector, and Transformer —
+      to build, manage, and run data pipelines. Authored by StreamSets Inc.
+    requires_python: ">=3.10"

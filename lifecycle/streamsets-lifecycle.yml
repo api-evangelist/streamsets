@@ -1,0 +1,18 @@
+generated: '2026-07-21'
+method: searched
+source: https://status.streamsets.com/
+status_page: https://status.streamsets.com/
+notes: >-
+  IBM StreamSets Control Hub publishes a live status page (hosted on
+  incident.io / statuspage). StreamSets is now part of IBM; product,
+  documentation, and support have consolidated under ibm.com. No standalone
+  public versioning or deprecation policy page was reachable at enrichment
+  time (docs.streamsets.com returned 504); the SDK is versioned on PyPI
+  (current 7.0.x).
+versioning:
+  scheme: semver
+  current: "7.0"
+  source: https://pypi.org/project/streamsets/
+deprecation: null
+sla: null
+deprecated_operations: []
