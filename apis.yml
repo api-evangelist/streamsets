@@ -38,6 +38,15 @@ tags:
 - Company
 - Data Integration
 - DataOps
+- Data Pipeline
+- ETL
+- Streaming Data
+- Change Data Capture
+- Data Engineering
+tags_raw:
+- Company
+- Data Integration
+- DataOps
 - Data Pipelines
 - ETL
 - Streaming Data
@@ -53,6 +62,10 @@ apis:
   humanURL: https://www.ibm.com/docs/en/streamsets-controlhub
   baseURL: https://cloud.streamsets.com/
   tags:
+  - Data Integration
+  - DataOps
+  - Data Pipeline
+  tags_raw:
   - Data Integration
   - DataOps
   - Data Pipelines
