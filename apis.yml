@@ -1,16 +1,12 @@
 aid: streamsets
 name: StreamSets
-description: >-
-  StreamSets, now part of IBM, is a DataOps platform for building, running, and
-  operating smart data pipelines for streaming, batch, and change-data-capture
-  workloads across hybrid and multi-cloud environments. Its flagship products —
-  Control Hub (the cloud-native control plane), Data Collector, and Transformer —
-  let data engineers design pipelines once and run them anywhere, with drift
-  detection that keeps pipelines resilient as schemas and infrastructure change.
-  StreamSets exposes a Control Hub REST API and an official Python SDK so teams
-  can automate pipeline design, deployment, job orchestration, and monitoring as
-  code. Originally founded in 2014 and backed by Battery Ventures and DCVC,
-  StreamSets was acquired by Software AG and is now delivered as IBM StreamSets.
+description: StreamSets, now part of IBM, is a DataOps platform for building, running, and operating smart data
+  pipelines for streaming, batch, and change-data-capture workloads across hybrid and multi-cloud environments.
+  Its flagship products — Control Hub (the cloud-native control plane), Data Collector, and Transformer — let data
+  engineers design pipelines once and run them anywhere, with drift detection that keeps pipelines resilient as
+  schemas and infrastructure change. StreamSets exposes a Control Hub REST API and an official Python SDK so teams
+  can automate pipeline design, deployment, job orchestration, and monitoring as code. Originally founded in 2014
+  and backed by Battery Ventures and DCVC, StreamSets was acquired by Software AG and is now delivered as IBM StreamSets.
 url: https://raw.githubusercontent.com/api-evangelist/streamsets/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -33,7 +29,7 @@ accessModel:
 image: https://www.ibm.com/products/streamsets
 specificationVersion: '0.23'
 created: '2026-07-17'
-modified: '2026-07-21'
+modified: '2026-08-21'
 tags:
 - Company
 - Data Integration
@@ -54,11 +50,9 @@ tags_raw:
 - Data Engineering
 apis:
 - name: StreamSets Control Hub API
-  description: >-
-    REST API for IBM StreamSets Control Hub — the cloud-native control plane for
-    designing, deploying, orchestrating, and monitoring StreamSets data pipelines
-    and jobs across engines. Programmatic access is also available through the
-    official StreamSets SDK for Python.
+  description: REST API for IBM StreamSets Control Hub — the cloud-native control plane for designing, deploying,
+    orchestrating, and monitoring StreamSets data pipelines and jobs across engines. Programmatic access is also
+    available through the official StreamSets SDK for Python.
   humanURL: https://www.ibm.com/docs/en/streamsets-controlhub
   baseURL: https://cloud.streamsets.com/
   tags:
@@ -83,6 +77,11 @@ x-enrichment:
   artifacts_added: 4
   pass: local-v1
 common:
+- type: ParentCompany
+  url: https://apis.io/providers/ibm/
+  name: Ibm
+  x-relationship: acquisition
+  x-generated-by: ibm-family:2026-08-21
 - type: VulnerabilityDisclosure
   url: security/streamsets-vulnerability-disclosure.yml
 - type: Security
@@ -109,3 +108,5 @@ common:
   url: packages/streamsets-packages.yml
 - type: Lifecycle
   url: lifecycle/streamsets-lifecycle.yml
+x-parent: ibm
+x-relationship: acquisition
